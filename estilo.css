@@ -94,3 +94,18 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.translate-button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.translate-button:hover {
+    background-color: #45a049;
+}

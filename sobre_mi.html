@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <title>Document</title>
+
+    <script>
+        function translatePage() {
+            const elements = document.querySelectorAll('[data-es]');
+            elements.forEach(el => {
+                el.innerText = el.getAttribute('data-en');
+            });
+        }
+    </script>
 </head>
 <body>
+
+    <button class="translate-button" onclick="translatePage()">Traducir a Inglés</button>
     
     <div class="container">
         <section id="sobre-mi" class="section profile">

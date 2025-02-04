@@ -109,3 +109,9 @@ footer a:hover {
 .translate-button:hover {
     background-color: #45a049;
 }
+
+#google_translate_element {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
